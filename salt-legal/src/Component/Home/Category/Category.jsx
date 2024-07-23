@@ -13,15 +13,17 @@ function Category() {
   const [categoryData, setCategoryData] = useState([]);
   const [imageUrls, setImageUrls] = useState([]);
   
-  const firebaseConfig = {
-    apiKey: "AIzaSyDVoCPjnHeVwhXGS6e2TecybfRA5kO47BM",
-    authDomain: "firstfirebaseproject-c676f.firebaseapp.com",
-    projectId: "firstfirebaseproject-c676f",
-    storageBucket: "the-salt-legal.appspot.com",
-    messagingSenderId: "490386883552",
-    appId: "1:490386883552:web:629d36e63e41982abce185",
-    measurementId: "G-R45S0BBB9B"
-  };
+ const firebaseConfig = {
+  apiKey: "AIzaSyBWb1c2C84qfAIjJ0-9XpQ-Pq-mP3qgYqA",
+  authDomain: "first-project-796d7.firebaseapp.com",
+  databaseURL: "https://first-project-796d7-default-rtdb.firebaseio.com",
+  projectId: "first-project-796d7",
+  storageBucket: "first-project-796d7.appspot.com",
+  messagingSenderId: "50410309387",
+  appId: "1:50410309387:web:e7c7ed65c6ab7acd07040e",
+  measurementId: "G-2HW6S010DY"
+};
+
   const app = initializeApp(firebaseConfig);
   const storage = getStorage(app);
 
